@@ -1,0 +1,74 @@
+/* css for navigation bar */
+
+  /* Navbar container */
+  .navbar {
+    overflow: hidden;
+    background-color: #e0f2e9;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left; /* makes the links on the left side of the container */
+    font-size: 18px;
+    color: black; /* colour of the menu text */
+    text-align: center;
+    padding: 14px 16px; /* the space between the text and the outside of the box */
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left; /* dropdown container to be aligned left */
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit; /* the dropdown buttons inherit the background colour of the parent (white) */
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+    width: 312px; /* certain width of navigation bar boxes*/
+  }
+
+  /* Add background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #3c887e;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute; /*so dropdown boxes don't overflow past the box */
+    background-color: #e0f2e9;
+    width: 312px; /* certain width of dropdown menu*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center; /* text aligned to centre in dropdown menu */
+  }
+  
+  /* Add a background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #3c887e;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* css for banner */
+
