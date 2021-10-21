@@ -72,3 +72,15 @@
 
 /* css for banner */
 
+/* align logo to the left */
+.logo {
+  float: left;
+  margin-right: -220px; /*negative margin to the right to equal change in height of the image*/
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  text-align: center; 
+  font-size: 45px;
+  line-height: 195px; /*keeps heading on line appropriate to logo img*/
+}
