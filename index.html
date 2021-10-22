@@ -113,6 +113,7 @@
   <br><br><br>
   <div class="backtotop"> <!-- div to align the icon to the right -->
     <a href="index.html"><span class="material-icons" style="font-size:100px;">arrow_upward</span></a> <!-- back to top button -->
+    <p>Back to top</p>
 </div>
   <table>
     <tr>
@@ -123,7 +124,7 @@
   </div>
     </tr>
     <tr>
-      <td><a href="index.html">Home</a></td>
+      <td><a href="index.html">Home</a></td> <!-- footer links -->
       <td><a href="disposal.html">Disposal of clothing</a></td>
       <td><a href="social.html">Social</a></td>
     </tr>
@@ -141,5 +142,18 @@
     <td><a href="stores.html">Sustainable stores</a></td>
   </tr>
   </table>
-    <br><br><br>
+  <br><br>
+  <div class="modified"> <!-- last modified date for website -->
+  <p>This website was last modified <span id="modified"></span>.</p>
+  </div>
+  <hr> <!-- horizontal line separating footer -->
+  <div class="copyright">
+  <p>Winnie Zhang © 2021</p> <!-- copyright text -->
+</div>
+    <br>
 </footer>
+
+<!-- script for last modified date -->
+<script> 
+  document.getElementById("modified").innerHTML = document.lastModified;
+  </script>
