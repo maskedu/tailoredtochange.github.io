@@ -302,3 +302,11 @@ h3 {
 li { 
   font-family: 'Nunito Sans', sans-serif; 
 }
+
+/* information introducing the topic*/
+.information {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
