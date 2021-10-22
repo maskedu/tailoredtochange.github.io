@@ -133,7 +133,6 @@ p {
   font-size: 12.8px;
 }
 
-
 /*button on home page to impacts*/
 .block {
   display: inline-block; /* two buttons on same line*/
@@ -141,7 +140,7 @@ p {
   border: none;
   background-color: white;
   color: black;
-  padding: 200px 28px; /*increase padding to make it so no on the left-side of the website and to increase height of button*/
+  padding: 150px 28px; /*increase padding to make it so no on the left-side of the website and to increase height of button*/
   font-size: 30px;
   font-family: 'Nunito Sans', sans-serif; 
   cursor: pointer;
@@ -159,4 +158,61 @@ p {
 /*background behind the home page impact buttons*/
 .behind {
   background-color: #3c887e;
+}
+
+/*css for footer*/
+
+footer {
+  background-color: #a17c6b;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%; /*title of links to go across the entire footer*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif; 
+  color: white;
+  text-align: center;
+}
+
+td, th {
+  text-align: center;
+  padding: 10px;
+}
+ 
+/*change colour of links in footer*/
+td a{ 
+  color: #e0f2e9;
+}
+
+/*change colour of links on hover in footer on hover*/
+td a:hover{ 
+  color: #ceb5a7;
+}
+
+/*change colour of links in footer on visited*/
+td a:visited{ 
+  color: #5b7b7a;
+}
+
+/* back to top button */
+.backtotop {
+  position: absolute; /* fixed position */
+  right: 100px; /* to the left by 100px from the right corner */
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/*change colour of back to top button*/
+.backtotop a { 
+  color: #e0f2e9;
+}
+
+/*change colour of back to top button on hover*/
+.backtotop a:hover { 
+  color: #ceb5a7;
 }
