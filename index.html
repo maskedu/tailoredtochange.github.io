@@ -8,6 +8,7 @@
         <meta name="This website is about fast fashion, effects and prevention" content="My website">
         <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- responsive website -->
         <link rel="stylesheet" href="main.css"> <!-- linking the HTML page to the external CSS -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- google icon stylesheet-->
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> <!-- linking the font stylesheet -->
         <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap" rel="stylesheet"> <!-- linking the font stylesheet -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"> <!-- linking the font stylesheet -->
@@ -17,13 +18,15 @@
    
         <!-- code for the banner -->
         <div class="logo"> <!-- div to align logo left -->
-          <img src="img/logo.jpg" alt="logo" height="220"> <!-- inserting the image of my logo -->
+          <a href="index.html"><img src="img/logo.jpg" alt="logo" height="220"></a> <!-- inserting the image of my logo and linking to home page -->
           </div>
           <h1>TAILORED TO CHANGE</h1> <!-- heading text/banner of my website -->
 
     <!-- code for navigation bar-->
     <div class="navbar">
-        <a href="index.html">Home</a>
+        <a href="index.html"><span class="material-icons"> <!-- home icon-->
+          home
+          </span></a>
         <div class="dropdown"> <!-- specific div for dropdown buttons-->
           <button class="dropbtn">Impacts <!-- dropdown with text (impacts)-->
             <i class="fa fa-caret-down"></i>
@@ -67,7 +70,7 @@
         </div> 
       </div>
 
- <!-- hero image-->
+      <!-- hero image-->
       <div class="credit">
       <img src="img/fashion_movement.jpg" width="1424" alt="Image of fast fashion movement 'Who made my clothes?'"> 
       <p>Image on Flickr taken by greensefa on April 22, 2015</p>
@@ -89,6 +92,19 @@
     <div class="paragraph">
 <p> Fast fashion is a global part of the fashion industry. It is defined as the process of mass-producing garments that are of poor quality and easily disposable. Businesses use this model to manufacture their clothing at cheap costs (mostly done in third world countries) and use this as a method of exploitation of workers and resources. It is a rapid design that constantly produces new clothes that are in trend but of course, at an expense for the workers and the environment. </p>
 </div>
+<br><br><br>
+<div class="behind"> <!--background colour for the button-->
+  <br><br><br>
+  <a href="environmental.html"><button class="block"> <!--link to correct page-->
+  <div class="icon"> <!--class for icon to be by itself-->
+  <span class="material-icons" style="font-size:200px;">
+  public</span></div><br>Environmental Impacts</button></a> <!--text and icon for button-->
+  <a href="social.html"><button class="block"> <!--link to correct page-->
+  <div class="icon"> 
+    <span class="material-icons" style="font-size:200px;">
+  person
+  </span></div><br>Social Impacts</button> <!--text and icon for button-->
+<br><br><br><br>
+</div>
+
 </body>
-
-
