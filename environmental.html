@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
     <head>    <!-- information about the documment -->
@@ -70,6 +70,39 @@
         </div> 
       </div>
 
+<div class="page"> <!-- to colour the background of header -->
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="center"> <!-- centre text-->
+    <h3>Environmental Impacts</h3>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+
+<!-- background colour white div -->
+<div class="white">
+<br><br><br>
+<!-- collapsible bar -->
+
+    <button type="button" class="collapsible">Water pollution</button>
+    <div class="content">
+      <p>Just because we believe we have clean water here in New Zealand doesn’t mean that others aren’t being affected. In fact, because of the fast fashion industry, wastewater has seen to be pushed out straight from factories into waterways. It’s even been seen “pumped straight into the stress of Ain el Sirra district of Cairo.” As people walk past this wastewater, they remain unbothered by the waste, smell of chemicals and “unprocessed skins.” Due to the demand and production of fast fashion, factories are polluting rivers and causing the water to turn murky and into horrific colours. This is unsafe for people living in districts where this is happening especially as they could possibly be drinking unclean water and breathing in dangerous chemicals. However, this pollution is so common that people aren’t concerned about their safety at all. Fast fashion is putting people at risk and is harming the environment as well. Not to mention the suffocation that water pollution puts on marine life. </p>
+    </div>
+    <button type="button" class="collapsible">Landfill waste</button>
+    <div class="content">
+      <p>Because over half of fabrics are synthetics, this means that when they go to landfills, they will not decay. According to a 2018 Waste Management World survey, consumerism is what drives New Zealand as the worst development country for producing waste. Landfills are piling up and the waste is happening in our own country. These garments that are made using the fashion process are made of cheap fabrics which accommodate chemicals that take hundreds of years to break down. This is important because it’s affecting us here in New Zealand as well. Here are some statistics on the fast fashion landfill issue in New Zealand: </p>
+      <ul>
+        <li>87% of the microplastics polluting Auckland waterways are coming from textiles (2019 study): https://thespinoff.co.nz/society/12-05-2021/theres-a-global-avalanche-of-used-clothing-and-nz-needs-to-do-more-to-save-it-from-landfill/</li>
+        <li>Every kilogram of clothing going to landfill produces about 3.6 kilograms of greenhouse gases: https://www.stuff.co.nz/life-style/fashion/119263786/handle-with-care-fighting-the-tide-of-fast-fashion</li>
+        <li>Estimated 100kgs of textile waste every year in New Zealand: https://www.theclothingproject.co.nz/blog/2018/1/16/zero-waste</li>
+      </ul>
+    </div>
+    <button type="button" class="collapsible">Usage of resources</button>
+    <div class="content">
+      <p>The fast fashion industry puts a strain because of the water used to run and clean products. It takes about 3,000L of water to produce a cotton shirt. Imagine the shirt you’re wearing right now, perhaps you purchased a cotton shirt from your local Cotton On. That would be about 3,000L of water that could have been used for drinking or something else. These materials that make up fast fashion truly is not sustainable. The cotton, the water, the pesticides and transport needed to produce that one shirt is immeasurable to the true cost of producing these clothes. </p>
+    </div>
+    <br><br><br>
+</div>
+</div>
+</body>
 
       <footer>
         <br><br><br>
@@ -119,3 +152,21 @@
       <script> 
         document.getElementById("modified").innerHTML = document.lastModified;
         </script>
+
+<!-- javascript for collapsible bar -->
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
