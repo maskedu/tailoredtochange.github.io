@@ -78,9 +78,57 @@
   margin-right: -220px; /*negative margin to the right to equal change in height of the image*/
 }
 
+/* h1 text merriweather */
 h1 {
   font-family: 'Merriweather', serif;
   text-align: center; 
   font-size: 45px;
   line-height: 195px; /*keeps heading on line appropriate to logo img*/
+}
+
+/*credit of hero iamge*/
+.credit{  
+  font-family: 'Nunito Sans', sans-serif; 
+  text-align: center;
+}
+
+/* subheading text on home page */
+h2 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 35px;
+}
+
+/*padding for image and text on home page about fast fashion*/
+.padding {
+  padding-left: 50px;  
+}
+  
+p {
+  font-family: 'Nunito Sans', sans-serif; 
+}
+
+/*paragraph about fast fashion*/
+.paragraph{ 
+  font-family: 'Nunito Sans', sans-serif; 
+  text-align: left;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 26px;
+  margin-left: 400px; /*need to margin text so it doesn't go over image and title*/
+}
+
+/*home image h&m*/
+.homeimg {
+  float: left;
+  margin-right: -330px;
+}
+
+/*left align text*/
+.left {
+  text-align: left;
+}
+
+/*resize text to fit under image on home page*/
+.homecredit {
+  font-size: 12.8px;
 }
