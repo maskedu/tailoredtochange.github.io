@@ -132,3 +132,31 @@ p {
 .homecredit {
   font-size: 12.8px;
 }
+
+
+/*button on home page to impacts*/
+.block {
+  display: inline-block; /* two buttons on same line*/
+  width: 500px;
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 200px 28px; /*increase padding to make it so no on the left-side of the website and to increase height of button*/
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif; 
+  cursor: pointer;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-self: center;
+}
+
+.block:hover {
+  background-color: #e0f2e9;
+  color: black;
+}
+
+/*background behind the home page impact buttons*/
+.behind {
+  background-color: #3c887e;
+}
