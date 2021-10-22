@@ -195,7 +195,7 @@ td a:hover{
 
 /*change colour of links in footer on visited*/
 td a:visited{ 
-  color: #5b7b7a;
+  color: #0645AD;
 }
 
 /* back to top button */
@@ -215,4 +215,90 @@ td a:visited{
 /*change colour of back to top button on hover*/
 .backtotop a:hover { 
   color: #ceb5a7;
+}
+
+/*change length of horizontal line after links*/
+hr { 
+  width: 90%;
+}
+
+/*change length of horizontal line after links*/
+.copyright { 
+  color: white;
+  text-align: center;
+  margin-right: 48px;
+}
+
+/*changing margin and colour of last modified date*/
+.modified {
+  color: white;
+  margin-left: 80px;
+}
+
+/*background colour of heading*/
+.page {
+  background-color: #ceb5a7;
+}
+
+/*centre text*/
+.center {
+  text-align: center;
+}
+
+/* heading of each title page */
+h3 {
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 50px;
+}
+
+/* collapsible for information page*/
+.collapsible {
+  font-family: 'Nunito Sans', sans-serif; 
+  background-color: #3c887e;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .collapsible:hover {
+  background-color: #5b7b7a;
+}
+
+.content {
+  padding: 10px 80px;
+  display: none;
+  overflow: hidden;
+  background-color: #3c887e;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* collapsible plus and minus icons*/
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+/* to make a background of a page white*/
+.white {
+  background-color: white;
+}
+
+/* make list paragraph font*/
+li { 
+  font-family: 'Nunito Sans', sans-serif; 
 }
